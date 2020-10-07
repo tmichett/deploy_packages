@@ -6,7 +6,7 @@ galaxy_info:
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   # issue_tracker_url: http://example.com/issue/tracker
-  issue_tracker_url: https://github.com/tmichett/anisble-pkg-role/issues
+  issue_tracker_url: https://github.com/tmichett/deploy_packages/issues 
   # Some suggested licenses:
   # - BSD (default)
   # - MIT
@@ -46,7 +46,7 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
-    - name: Red Hat Enterprise Linux
+    - name: EL
       versions:
         - all
   galaxy_tags:

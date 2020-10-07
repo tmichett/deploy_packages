@@ -25,9 +25,16 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+---
+- name: Install Software Packages
+  hosts: serverc
+  vars:
+    pkg_name:
+      - vim
+      - tree
+      - httpd
+  roles:
+    - tmichett.deploy_packages
 
 License
 -------
